@@ -160,6 +160,10 @@ li:last-child {
 
 /* === Exp === */
 
+.exp {
+    padding-bottom: 30px;
+}
+
 .exp__position {
     margin-top: 16px;
     font-size: 15px;
@@ -167,6 +171,7 @@ li:last-child {
 .company {
     margin-top: 10px;
     font-size: 14px;
+    color: rgb(82, 82, 82);
 }
 
 /* === /Exp === */
@@ -174,7 +179,7 @@ li:last-child {
 
 /* === Media === */
 
-@media (max-width: 414px) {
+@media (max-width: 576px) {
     .intro {
         flex-wrap: wrap;
     }
@@ -202,3 +207,24 @@ li:last-child {
         padding-top: 30px;
     }
 }
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .intro__left__side {
+        width: 45%;
+    }
+    .my__name {
+        font-size: 30px;
+    }
+    .my__position {
+        font-size: 28px;
+    }
+    .intro__right__side {
+        width: 55%;
+    }
+    .intro__right__side__title {
+        margin: 40px auto 40px auto;
+    }
+}
+
+
+
