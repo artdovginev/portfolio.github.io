@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .social__network {
     text-decoration: none;
-    color: #ffffff;
+    color: #FF6E40;
 }
 
 .social__network:hover {
@@ -152,6 +152,32 @@ li:last-child {
 
 
 /* === Projects and exp === */
+.portfolio {
+    align-items: center;
+    display: flex;
+    max-height: 50px;
+}
+
+.github__link {
+    text-decoration: none;
+    color: #FF6E40;
+}
+
+.github__link:hover {
+    color: red;
+    text-decoration: underline;
+    transition: color .2s linear;
+}
+
+.portfolio__img {
+    margin-right: 3px;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.portfolio__link {
+    margin: 0;
+}
 /* === /Projects and exp === */
 
 
@@ -178,6 +204,12 @@ li:last-child {
 
 
 /* === Media === */
+
+@media (min-width: 360px) and (max-width: 380px) {
+    .portfolio {
+        font-size: 15px;
+    }
+}
 
 @media (max-width: 576px) {
     .intro {
